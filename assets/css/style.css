@@ -70,6 +70,10 @@ a {
     margin-left: 20px;
 }
 
+.content img {
+    max-height: 200px;
+}
+
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -92,10 +96,6 @@ h2 {
 #float-right {
     float: right;
     margin-left: 25px;
-}
-
-.content img {
-    max-height: 200px;
 }
 
 /* Style applied to aside  */
@@ -126,6 +126,7 @@ h3 {
     max-width: 150px;
 }
 
+/* Footer Styles  */
 .footer {
     padding: 30px;
     clear: both;
