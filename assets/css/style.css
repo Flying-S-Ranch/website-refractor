@@ -171,17 +171,7 @@ p {
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
+h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -193,6 +183,7 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+.footer #sign-off {
     font-size: 20px;
+    font-weight: bold;
 }
