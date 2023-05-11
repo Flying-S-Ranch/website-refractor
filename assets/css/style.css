@@ -1,3 +1,4 @@
+/* Styles applied across the webpage, unless over-ridden by specificity  */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +9,11 @@ body {
     background-color: #d9dcd6;
 }
 
+p {
+    font-size: 16px;
+}
+
+/* Header Styles  */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,16 +21,16 @@ body {
     color: #ffffff;
 }
 
-.header h1 {
+h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+.seo {
     color: #d9dcd6;
 }
 
-.header nav {
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,29 +38,36 @@ body {
     font-size: 20px;
 }
 
-.header nav ul {
+ul {
     list-style-type: none;
 }
 
-.header nav ul li {
+li {
     display: inline-block;
     margin-left: 25px;
-}
+} 
 
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
+/* Main Styles  */
 
+/* Style applied to large photo under header  */
 #meeting {
     height: 800px;
+    width: 100%;
     margin-bottom: 25px;
     background-size: cover;
     background-position: center;
+}
+
+/* Style applied to three blocks on the left side of the webpage  */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
 }
 
 .float-left {
@@ -67,11 +80,7 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
+
 
 .benefits {
     margin-right: 20px;
@@ -84,49 +93,17 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefit-part {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
+.benefit-part img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
