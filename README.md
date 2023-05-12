@@ -3,6 +3,8 @@
 ## Description
 The aim of this project is to refractor an existing webpage by organizing HTML and CSS elements. While the webpage itself should be unchanged, it is my goal to make the code easier to read and follow. This project enables me to practice what we have learned about HTML and CSS, including the use of semantic elements, class and id descriptions, and alternate descriptions for images.
 
+<img src="./assets/images/challenge-1-screenshot.png" alt="screenshot of webpage" />
+
 Access the completed project here: https://flying-s-ranch.github.io/challenge-1/ 
 
 ## Installation
