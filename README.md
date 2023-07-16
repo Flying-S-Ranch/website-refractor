@@ -5,10 +5,10 @@ The aim of this project is to refractor an existing webpage by organizing HTML a
 
 <img src="./assets/images/challenge-1-screenshot.png" alt="screenshot of webpage" />
 
-Access the completed project here: https://flying-s-ranch.github.io/challenge-1/ 
+Access the completed project here: [https://flying-s-ranch.github.io/challenge-1/](https://flying-s-ranch.github.io/website-refractor/) 
 
 ## Installation
-There are no special instructions for installation. To acces the webpage, open https://flying-s-ranch.github.io/challenge-1/ in your internet browser. 
+There are no special instructions for installation. To acces the webpage, open [https://flying-s-ranch.github.io/challenge-1/](https://flying-s-ranch.github.io/website-refractor/) in your internet browser. 
 
 ## Usage
 To see the HTML and CSS code in action, access the 'Inspect' feature in your browser. See especially the use of semantic elements in the HTML code and the alt descriptions in image elements.
